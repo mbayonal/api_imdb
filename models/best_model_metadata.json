@@ -1,0 +1,28 @@
+{
+  "model_name": "logistic_regression",
+  "metrics": {
+    "accuracy": 0.999554234769688,
+    "f1_score_macro": 0.9991133147685205,
+    "f1_score_weighted": 0.9995541770675258,
+    "precision_macro": 0.9993075042859978,
+    "recall_macro": 0.9989196318463662
+  },
+  "parameters": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "logistic_regression": {
+      "C": 1.0,
+      "max_iter": 1000
+    },
+    "linear_svm": {
+      "C": 1.0,
+      "max_iter": 2000
+    }
+  },
+  "target_classes": [
+    "Poor",
+    "Average",
+    "Good",
+    "Excellent"
+  ]
+}
